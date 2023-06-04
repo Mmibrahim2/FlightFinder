@@ -1,0 +1,82 @@
+Script started on 2022-12-09 04:29:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="112" LINES="40"]
+[?2004h]0;moodi0326@cs400a01: ~/Project3_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project3_AE_red[00m$ git status
+[?2004lOn branch BackendDeveloper
+Your branch is ahead of 'origin/BackendDeveloper' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CS400Graph.java.swp[m
+	[31m.FlightMapper.java.swo[m
+	[31mBDFlight.class[m
+	[31mBDFlight.java[m
+	[31mBackendDeveloperTests.class[m
+	[31mBackendDeveloperTests.java[m
+	[31mCS400Graph$Edge.class[m
+	[31mCS400Graph$Path.class[m
+	[31mCS400Graph$Vertex.class[m
+	[31mCS400Graph.class[m
+	[31mCS400Graph.java[m
+	[31mFlightBackend.class[m
+	[31mFlightBackend.java[m
+	[31mFlightMapper.java[m
+	[31mGraphADT.class[m
+	[31mIFlight.class[m
+	[31mIFlightBackend.class[m
+	[31mIFlightBackend.java[m
+	[31mMakefile[m
+	[31mjunit5.jar[m
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;moodi0326@cs400a01: ~/Project3_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project3_AE_red[00m$ git log -1
+[?2004l[?1h=[33mcommit d51357f84986a7a299e11a0b6e59a96f42c2c190[m[33m ([m[1;36mHEAD -> [m[1;32mBackendDeveloper[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m[m
+Author: Suyog <rithesh@wisc.edu>[m
+Date:   Thu Nov 24 02:43:32 2022 +0000[m
+[m
+    adding interface frontend[m
+[K[?1l>[?2004h]0;moodi0326@cs400a01: ~/Project3_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project3_AE_red[00m$ make clean
+[?2004lrm *.class
+[?2004h]0;moodi0326@cs400a01: ~/Project3_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project3_AE_red[00m$ ls
+[?2004lBDFlight.java               FlightBackend.java  IFlight.java          IFlightLoader.java  flights.DOT
+BackendDeveloperTests.java  FlightMapper.java   IFlightBackend.java   IPrimMST.java       [0m[01;31mjunit5.jar[0m
+CS400Graph.java             GraphADT.java       IFlightFrontend.java  Makefile            log
+[?2004h]0;moodi0326@cs400a01: ~/Project3_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project3_AE_red[00m$ make runTests
+[?2004ljavac BDFlight.java
+javac GraphADT.java       
+javac CS400Graph.java
+javac FlightBackend.java
+javac -cp .:junit5.jar BackendDeveloperTests.java
+java -jar junit5.jar --class-path=. --include-classname=.* --select-class=BackendDeveloperTests
+0
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m   └─[0m [36mBackendDeveloperTests[0m [32m✔[0m
+[36m      ├─[0m [34mBackendDeveloperTest1[0m [32m✔[0m
+[36m      ├─[0m [34mBackendDeveloperTest2[0m [32m✔[0m
+[36m      ├─[0m [34mBackendDeveloperTest3[0m [32m✔[0m
+[36m      ├─[0m [34mBackendDeveloperTest4[0m [32m✔[0m
+[36m      └─[0m [34mBackendDeveloperTest5[0m [32m✔[0m
+
+Test run finished after 107 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;moodi0326@cs400a01: ~/Project3_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project3_AE_red[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-09 04:30:29+00:00 [COMMAND_EXIT_CODE="0"]

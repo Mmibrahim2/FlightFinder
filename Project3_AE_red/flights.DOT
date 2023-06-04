@@ -1,0 +1,16 @@
+digraph G {
+
+    "Miami" -> "New York" [label=1090];
+    "Miami" -> "Seattle" [label=2724];
+    "Atlanta" -> "Chicago" [label=606];
+    "Atlanta" -> "Miami" [label=595];
+    "Chicago" -> "Los Angeles" [label=1745];
+    "Chicago" -> "Dallas" [label=802];
+    "New York" -> "Chicago" [label=740];
+    "New York" -> "Atlanta" [label=760];
+    "Los Angeles" -> "Seattle" [label=954];
+    "Los Angeles" -> "New York" [label=2475];
+    "Dallas" -> "Los Angeles" [label=1235];
+    "Seattle" -> "Chicago" [label=1721];
+
+}

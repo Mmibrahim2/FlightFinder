@@ -1,0 +1,175 @@
+Script started on 2022-12-08 02:25:21+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="25"]
+[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ [7mgit status[27mgit status
+[?2004lOn branch FrontendDeveloper
+Your branch is up to date with 'origin/FrontendDeveloper'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mjunit5.jar[m
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ [7mgit log -1[27mgit log -1
+[?2004l[?1h=[33mcommit 4d1d07c4cde4adf829fc44c3f272b83e01532597[m[33m ([m[1;36mHEAD -> [m[1;32mFrontendDeveloper[m[33m, [m[1;31mori[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mgin/FrontendDeveloper[m[33m)[m[m
+Author: Suyog <rithesh@wisc.edu>[m
+Date:   Thu Dec 8 02:19:21 2022 +0000[m
+[m
+    Added Makefile[m
+[K[?1l>[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ [7mmake clean[27mmake clean
+[?2004lrm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:10: clean] Error 1
+[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ ls
+[?2004lFDPlaceholder.java           IFlightFrontend.java  [0m[01;31mjunit5.jar[0m
+FlightFrontend.java          Makefile              log
+FrontendDeveloperTests.java  TextUITester.java
+[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ make runTests
+[?2004ljavac FlightFrontend.java
+javac -cp .:junit5.jar FrontendDeveloperTests.java
+java -jar junit5.jar --class-path=. --include-classname=.* --select-class=FrontendDeveloperTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mFrontendDeveloperTests[0m [32m✔[0m
+[36m│     ├─[0m [34mFrontendDeveloperTest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mFrontendDeveloperTest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mFrontendDeveloperTest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mFrontendDeveloperTest4()[0m [32m✔[0m
+[36m│     └─[0m [34mFrontendDeveloperTest5()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 187 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ make clean
+[?2004lrm *.class
+[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ ls
+[?2004lFDPlaceholder.java           IFlightFrontend.java  [0m[01;31mjunit5.jar[0m
+FlightFrontend.java          Makefile              log
+FrontendDeveloperTests.java  TextUITester.java
+[?2004h]0;rithesh@instance-1: ~/Project3_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project3_AE_red[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-08 02:27:26+00:00 [COMMAND_EXIT_CODE="0"]
+=======
+Script started on 2022-12-08 02:03:33+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="214" LINES="67"]
+[?2004h]0;nagarwal29@instance-1: ~/Project3_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project3_AE_red[00m$ [7mgit status[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status
+[A
+[?2004lOn branch DataWrangler
+Your branch is ahead of 'origin/DataWrangler' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;nagarwal29@instance-1: ~/Project3_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project3_AE_red[00m$ g[K[7mgit log -1[27mgit log -1
+[?2004l[?1h=[33mcommit d134819c1323f57e0274b48ae362b44963d31232[m[33m ([m[1;36mHEAD -> [m[1;32mDataWrangler[m[33m)[m[m
+Author: Nikita Agarwal <nagarwal29@wisc.edu>[m
+Date:   Thu Dec 8 02:00:24 2022 +0000[m
+[m
+    added files for data wrangler[m
+[K[?1l>[?2004h]0;nagarwal29@instance-1: ~/Project3_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project3_AE_red[00m$ make clean
+[?2004lrm *.class
+[?2004h]0;nagarwal29@instance-1: ~/Project3_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project3_AE_red[00m$ ls
+[?2004lDataWranglerTests.java  Flight.java  FlightLoader.java  IFlight.java  IFlightLoader.java  Makefile  flights.dot  [0m[01;31mjunit5.jar[0m  log
+[?2004h]0;nagarwal29@instance-1: ~/Project3_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project3_AE_red[00m$ make runTests
+[?2004ljavac Flight.java
+javac FlightLoader.java
+javac -cp .:junit5.jar DataWranglerTests.java
+java -jar junit5.jar --class-path=. --include-classname=.* --select-class=DataWranglerTests
+Script started on 2022-12-07 23:04:41+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="196" LINES="51"]
+[?2004h]0;spmchugh@lecture: ~/Project3_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/Project3_AE_red[00m$ git status
+[?2004lOn branch AlgorithmEngineer
+Your branch is ahead of 'origin/AlgorithmEngineer' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mAlgorithmEngineerTests.class[m
+	[31mCS400Graph$Edge.class[m
+	[31mCS400Graph$Path.class[m
+	[31mCS400Graph$Vertex.class[m
+	[31mCS400Graph.class[m
+	[31mGraphADT.class[m
+	[31mIPrimMST.class[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;spmchugh@lecture: ~/Project3_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/Project3_AE_red[00m$ git log -1
+[?2004l[?1h=[33mcommit 52ee52121418bdc7c9766f527d2c3db2445ce140[m[33m ([m[1;36mHEAD -> [m[1;32mAlgorithmEngineer[m[33m)[m[m
+Author: Sean McHugh <spmchugh@wisc.edu>[m
+Date:   Wed Dec 7 23:03:57 2022 +0000[m
+[m
+    Updated log as detailed in P3W3[m
+[K[?1l>[?2004h]0;spmchugh@lecture: ~/Project3_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/Project3_AE_red[00m$ make clean
+[?2004lrm *.class
+[?2004h]0;spmchugh@lecture: ~/Project3_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/Project3_AE_red[00m$ ls
+[?2004lAlgorithmEngineerTests.java  CS400Graph.java  GraphADT.java  IFlight.java  IFlightFrontend.java  IFlightLoader.java  IPrimMST.java  Makefile  flights.DOT  [0m[01;31mjunit5.jar[0m  log
+[?2004h]0;spmchugh@lecture: ~/Project3_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/Project3_AE_red[00m$ make runTests 
+[?2004ljavac CS400Graph.java
+javac -cp .:junit5.jar AlgorithmEngineerTests.java
+java -jar junit5.jar --class-path=. --include-classname=.* --select-class=AlgorithmEngineerTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mDataWranglerTests[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest4()[0m [32m✔[0m
+[36m│     └─[0m [34mDataWranglerTest5()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 176 ms
+[36m│  └─[0m [36mAlgorithmEngineerTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtestInputCity()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestExpectedMST()[0m [32m✔[0m
+[36m│     ├─[0m [34mremovingCities()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestNewCity()[0m [32m✔[0m
+[36m│     └─[0m [34mchangingEdges()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 151 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;nagarwal29@instance-1: ~/Project3_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project3_AE_red[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-08 02:04:21+00:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;spmchugh@lecture: ~/Project3_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/Project3_AE_red[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-07 23:04:59+00:00 [COMMAND_EXIT_CODE="0"]
